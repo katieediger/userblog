@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  valides :uid, uniquiness: true 
+  validates :uid, uniqueness: true 
 end
